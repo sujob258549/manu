@@ -1,0 +1,42 @@
+nav > ul{
+    display: flex;
+}
+
+ul > li{
+    list-style: none;
+    margin-left: 15px;
+    padding: 10px 12px;
+    border-radius: 5px;
+
+   
+
+}
+ul li :active{
+    background-color: green;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+ nav ul > li:hover{
+    background-color: rgb(182, 219, 219);
+    box-shadow: 1px 1px 10px;
+    transition: .4s;
+}
+
+nav li .navigation{
+    display: none;
+    position: absolute;
+    padding: 0 30px;
+    background-color: green;
+    box-shadow: 1px 1px 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+   
+}
+
+nav li:hover > .navigation{
+    display: block;
+}
